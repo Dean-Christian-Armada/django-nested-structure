@@ -134,3 +134,6 @@ STATIC_URL = '/static/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+# COMMENT STATICFIELS_DIRS to run collecstatic
+STATICFILES_DIRS = (STATIC_PATH, )
