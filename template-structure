@@ -1,0 +1,7 @@
+"Metas are already included with dynamic meta-description and meta-keywords"
+"Makes use of includes and block tags"
+"base.html is the only extended"
+"base.html must first be checked to understand the structure"
+"Default jquery 2.2 and boostrapjs external source"
+"Default boostrapcss external source"
+"Title is dynamic configured in every method but with a default title in the template tag"

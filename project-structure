@@ -1,0 +1,35 @@
+- People (project)
+	- company_staffs
+ 	- crew menu (app)
+	 	- bio (sub-app)
+	 		- api
+ 				- views.py
+ 				- urls.py
+	 		- templates
+	 			- bio
+	 				- content.html
+	 		- views.py
+	 		- models.py
+	 		- urls.py
+	 		- tests.py
+	 		- forms.py
+		- views.py, (landing page, added features, ajax request inside the crew menu URL )
+		- urls.py, (include sub apps)
+		- models.py, (auditing models like accessed section of every users)
+	- people (project config folder)
+		- models.py (Generic Foreign Key Tables)
+	- application_forms
+	- global_declarations
+	- static
+		- css
+		- img
+		- js
+	- media
+	- templates
+		- pure_html
+		- base.html
+		- header.html
+		- footer.html
+		- header_css.html
+		- footer_js.html
+		- nav.html
