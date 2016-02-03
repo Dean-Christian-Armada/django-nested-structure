@@ -8,3 +8,6 @@
 7.) Replace the "app.subapp1" in the INSTALLED_APPS with the replacement name of the subapp1 folder
 8.) Run manage.py runserver
 9.) Start coding
+
+Important Notes:
+Type {{ MEDIA_URL }} in a template to show the media folder
