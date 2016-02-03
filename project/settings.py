@@ -133,4 +133,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 # COMMENT STATICFIELS_DIRS to run collecstatic
+<<<<<<< HEAD:project/settings.py
 STATICFILES_DIRS = (STATIC_PATH, )
+=======
+STATICFILES_DIRS = (STATIC_PATH, )
+>>>>>>> 0eb202c55301fe355ff854c3083ef3fe3f285534:test_people/settings.py
