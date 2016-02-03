@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -6,28 +8,29 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 	    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	    {% block custom_meta_tags %}
+	    	<!-- Default SEO metas -->
 		    <meta name="description" content="">
 			<meta name="keywords" content="">
 		{% endblock %}
 		<link rel="apple-touch-icon" href="{# static 'img/favicon.ico' #}">
 		<link rel="icon" href="{# static 'img/favicon.ico' #}">
 
-		<title>{% if title %} Default Title {% endif %}</title>
+		<title>{% block title %} Default Title {% endblock %}</title>
 		{% include 'header_css.html' %}
 	</head>
 	<body>
 		{% block header_content %}
-			<!-- Default Header -->
+			{% include 'header.html' %}
 		{% endblock %}
 		
 		{% block content %}
 			<!-- Default Content -->
 		{% endblock %}
 		
-		{% include 'footer_js.html' %}
-
 		{% block footer_content %}
-			<!-- Default Footer -->
+			{% include 'footer.html' %}
 		{% endblock %}
+
+		{% include 'footer_js.html' %}
 	</body>
 </html>

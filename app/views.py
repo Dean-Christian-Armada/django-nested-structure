@@ -5,11 +5,8 @@ from django.http import HttpResponse
 
 def index(request):
 
-	# template = 'login/index.html'
-	template = 'pure_html/login/index.html'
+	# template = 'app/index.html'
+	template = 'pure_html/app/index.html'
 	context_dict = {}
 	return render(request, template, context_dict)
-	# return HttpResponse("Index Page")
-
-def logout(request):
-	return HttpResponse("Logout")
+	# return HttpResponse("App Index Page")

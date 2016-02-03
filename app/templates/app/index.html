@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block title %}Log-In Page{% endblock %}
+{% block title %}App Page{% endblock %}
 
 {% block header_content %}
 <!-- Overwrite Default Header here -->
@@ -10,8 +10,8 @@
 
 {% block content %}
 <!-- Content Here -->
-Index Page
-<a href="{% url 'app_index' %}">App Page</a>
+App Index Page
+<a href="{% url 'sub_app_1_index' %}">Sub App 1</a>
 {% endblock %}
 
 {% block footer_content %}

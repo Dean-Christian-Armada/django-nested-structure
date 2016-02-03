@@ -26,5 +26,8 @@ urlpatterns = [
     url(r'^logout/$', logout, name='log_out'),
     # END authentication URLS
 
+    # START first level apps
+    url(r'^app/', include('app.urls')),
     url(r'^testing-sample-app/', include('testing_sample_app.urls')),
+    # END first level apps
 ]

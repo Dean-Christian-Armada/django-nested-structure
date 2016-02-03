@@ -1,0 +1,10 @@
+1.) Go to the settings.py then replace all "project" with the project name that you desire 
+2.) Go to manage.py then replace "project.settings" with the project name desired
+3.) Replace the "project" folder with the project name desired
+3.) Replace the secret_key in the settings
+4.) Replace the "app" folder with the name desired
+5.) Replace the "app" in the INSTALLED_APPS with the replacement name of the app folder
+6.) Replace the "subapp1" folder with the name desired
+7.) Replace the "app.subapp1" in the INSTALLED_APPS with the replacement name of the subapp1 folder
+8.) Run manage.py runserver
+9.) Start coding
