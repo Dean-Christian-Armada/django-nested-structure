@@ -37,10 +37,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # START third-party packages app
+    # END third-party packages app
+    # START django manage.py built apps
     'app',
     'app.subapp1',
     'testing_sample_app',
     'login',
+    # END django manage.py built apps
+    # START extra-apps
+    # END extra-apps
 ]
 
 MIDDLEWARE_CLASSES = [
